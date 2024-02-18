@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Cool event",
+    "date": "01/01/2020",
+    "attendees": ["John Doe", "Johnny Doe", "John John", "John Doey"]
+  },
+  {
+    "name": "Cool event 2",
+    "date": "01/05/2020",
+    "attendees": ["John Doe", "Johnny Doe", "John John", "John Doey"]
+  },
+  {
+    "name": "Interesting event",
+    "date": "05/10/2020",
+    "attendees": ["John Doe", "Johnny Doe", "John John", "John Doey"]
+  },
+  {
+    "name": "Awesome event",
+    "date": "30/12/2020",
+    "attendees": ["John Doe", "Johnny Doe", "John John", "John Doey"]
+  },
+  {
+    "name": "Funny event",
+    "date": "14/03/2020",
+    "attendees": ["John Doe", "Johnny Doe", "John John", "John Doey"]
+  }
+]
