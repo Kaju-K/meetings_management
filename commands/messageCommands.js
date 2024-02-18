@@ -21,6 +21,7 @@ bot.on("message", async (msg) => {
         let allEventsFromMonthAndYear = eventsData.filter(
           (event) => moment(event.date, "DD/MM/YYYY").month() === month && moment(event.date, "DD/MM/YYYY").year() === year
         );
+
         if (allEventsFromMonthAndYear.length) {
           bot.sendMessage(
             msg.chat.id,
