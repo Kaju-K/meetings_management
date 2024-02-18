@@ -63,6 +63,7 @@ bot.on("message", async (msg) => {
       const lastAppearance = rows.indexOf(filteredRows[filteredRows.length - 1]) + 1;
       await clearGoogleSheet(firstAppearance, lastAppearance);
     }
+
     const dataToSave = selectedEvent.attendees.map((attendee) => [selectedEvent.name, selectedEvent.date, attendee]);
     writeGoogleSheet(dataToSave);
   }
