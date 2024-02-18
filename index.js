@@ -11,4 +11,4 @@ app.get("/", (req, res) => {
   res.json({ success: true });
 });
 
-app.listen();
+app.listen(process.env.PORT);
